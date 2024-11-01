@@ -1,0 +1,85 @@
+.App {
+  background: #b00835;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* font-family: 'Roboto', sans-serif; */
+  flex-direction: column;
+}
+
+.header {
+  font-family: 'Courier New', Courier, monospace; 
+  font-weight: bold;
+  padding: 30px;
+  font-size: xx-large;
+  color: #ffffff;
+}
+
+.chat-container {
+  overflow: hidden;
+}
+
+.scrollbar-container.cs-message-list__scroll-wrapper {
+  padding: 15px;
+}
+
+.custom-send-button {
+  display: inline-flex;
+}
+
+
+/* MESSAGES */
+
+.message {
+  word-wrap: break-word;
+  padding-bottom: 20px;
+}
+
+/* MESSAGE BOT */
+
+.message.bot {
+  max-width: 80%;
+  word-wrap: break-word;
+  padding: 5px;
+}
+
+.message.bot .cs-message__content {
+  background-color: #ffffff;
+}
+
+
+/* MESSAGE USER */
+.message.user {
+  width: 50%;
+  word-wrap: break-word;
+  padding: 5px;
+}
+
+.message.user .cs-message__content {
+  background-color: #d8f3ff;
+}
+
+
+/* AVATAR STYLING */
+.avatar {
+}
+
+/* BOTTOM TEXT STUFF */
+.powered-by {
+  font-family: 'Courier New', Courier, monospace; 
+  color:#ffffff; 
+  padding: 30px;
+  font-size: large;
+}
+
+/* EFFECTS */
+@keyframes blink {
+  50% {
+    opacity: 0.0;
+  }
+}
+.blink {
+  animation: blink 1s step-start 0s infinite;
+}
