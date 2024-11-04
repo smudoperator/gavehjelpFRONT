@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import './App.css'
 import '@chatscope/chat-ui-kit-styles/dist/default/styles.min.css'
-import {MainContainer, ChatContainer, Message, MessageList, MessageInput, TypingIndicator, MessageModel, Avatar, ArrowButton } from '@chatscope/chat-ui-kit-react'
+import {MainContainer, ChatContainer, Message, MessageList, MessageInput, TypingIndicator, MessageModel, Avatar } from '@chatscope/chat-ui-kit-react'
 import ragService from './services/RAGService';
 import julemusen from './assets/julemusen-icon.png'
 
